@@ -13,7 +13,7 @@ namespace lc_codec
             Program p = new Program();
 
             TreeNode node = new TreeNode(-1) { left = new TreeNode(-2), right = new TreeNode(-3) };
-            Console.WriteLine(p.serialize(node));
+            Console.WriteLine(p.serialize(node)); 
             node = p.deserialize(p.serialize(node));
         }
 
